@@ -4,6 +4,7 @@ separate dependent and independent variables-:
     1] iloc()
     2] value()
 Machine Learning Libraries-:
-  1] from sklearn.svm import SVR
-  2] and use all parameter
+  1] from sklearn.neighbors import KNeighborsRegressor
+  2] use parameters like-:
+       : KNeighborsRegressor(n_neighbors=5, *, weights="uniform", algorithm="auto", leaf_size=30, p=2, metric="minkowski", metric_params=None, n_jobs=None)
   3] and predict the salary useing knn
